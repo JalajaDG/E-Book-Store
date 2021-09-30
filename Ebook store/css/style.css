@@ -1,0 +1,262 @@
+body{
+    background-color:beige;
+}
+div{
+    display: inline-block;
+}
+.logo img{
+    margin-left:10px;
+    width:100px;
+    height:100px;
+}
+.navbar{
+    float: right;
+    margin:10px 20px;
+   padding: 20px;
+}
+ul li{
+   display: inline;
+    margin-left :50px;
+
+}
+h3{
+    text-align: center;
+    
+}
+.categories img{
+    width: 300px;
+    height: 171px;
+    margin: 10px;
+    
+}
+@media(max-width:992px)
+{
+    .categories {
+       padding-left: 60px;
+       
+    }
+}
+@media(max-width:992px)
+
+{
+    #register,#login,#forgot_pass{
+        position: fixed;
+        top:200px;
+        left: 300px;
+    }
+}
+
+.categories div{
+    margin-left: 70px;
+}
+.categories p{
+    text-align: center;
+  
+}
+
+    .modal {
+        position: fixed;
+        left:420px;
+
+
+     
+ 
+}
+
+input[type="text"],input[type="email"],input[type="password"],input[type="radio"],input[type="checkbox"]{
+
+   
+    margin: 10px;
+    
+}
+/*-------------------------------about.html-----------------*/
+.aboutus-box{
+    display: block;
+    background-color:beige;
+   
+}
+.about {
+ display: flex;
+margin-left: 100px;
+margin-right: 100px;
+margin-top: 50px;
+}
+.about .img{
+display: flex;
+float: right;
+background-color: green;
+
+}
+.about img{
+	height:500px;
+	width: 400px;
+}
+.about .text{
+    display: block;
+    float:right;
+    padding: 30px ;
+}
+.p img{
+    height: 250px;
+	width: 250px;
+	border-radius: 50%;
+    border: 1px solid black;
+   
+}
+
+.p{
+ margin-left: 80px;
+
+}
+.ptext{
+    display: block;
+}
+.team{
+    margin-left: 80px;
+ 
+}
+.p p{
+    text-align: center;
+    color: black;
+}
+/*********team****/
+
+/*************************drama.php page**********************/
+.books-box{
+    display: block;
+}
+.book{
+    display: flex;
+    height: auto;
+}
+
+.book_img{
+    background-color: white;
+    width:20%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+    
+   
+    
+}
+.book_content{
+  background-color: white;
+  width: 800px;
+  float: right;
+  padding-right: 10px;
+
+ 
+  
+  
+}
+
+.book_img img{
+    width: 180px;
+    height: 250px;
+    
+    
+}
+
+.book{
+    margin-left: 130px;
+    margin-right: 130px;
+   border: 1px solid black;
+   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    width: 1000px;
+    margin-bottom: 30px;
+}
+ 
+/*-------------------------bread crumb------------------------*/
+
+ul.breadcrumb {
+    padding: 10px 10px;
+    list-style: none;
+    background-color:#cccc;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 1px;
+    color:black;
+    content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color:black;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+  .cart-nav{
+     margin-left: 10px;
+  }
+
+ /*************cart.php***************/
+ .cart-box {
+    display: flex;
+   
+
+
+ }
+ 
+ .items{
+     display: flex;
+     float: left;
+     width: 500px;
+     margin-left: 80px;
+  
+     
+     
+
+     
+     
+ }
+ .buy-form{
+    
+   margin-left: 200px;
+   border:1px solid black;
+   height: 470px;
+ }
+ 
+ .paddingBetweenCols td,th {
+    padding: 0 80px;
+  }
+ .table{
+     margin-top: 20px;
+   
+    
+     
+ }
+#cart-count{
+ text-align: center;
+ border-radius: 3rem;
+ padding: 0 0.9rem 0.1rem 0.9rem  ;
+}
+.table td{
+    padding: 0 10px;
+}
+.table table{
+    border:1px solid black;
+    
+}
+
+.grand-total td{
+    text-align: left;
+}
+
+/********buy in cart**********/
